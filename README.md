@@ -1,4 +1,4 @@
-# SubQuery - Starter Package for Sei
+# SubQuery - Sei Testnet example project - Fuzio Bets
 
 A custom example project with an event handler for Sei Network's [Fuzio](https://app.fuzio.network/games/prediction) contract, indexing bets on BTC in Sei testnet atlantic-2. Read more about SubQuery support for Cosmos at https://academy.subquery.network/quickstart/quickstart_chains/cosmos.html.
 
