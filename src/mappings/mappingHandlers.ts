@@ -38,6 +38,7 @@ export async function handleBet(event: CosmosEvent): Promise<void> {
   // We create a new entity using the transaction hash and message index as a unique ID
   logger.info(`New bet at block ${event.block.block.header.height}`);
 
+  // Getting all the info from the event attributes
   const newBetType = event.event.attributes.find((a)=> a.key === "direction")?.value;
   const newAddress= event.event.attributes.find((a)=> a.key === "account")?.value;
   const newBetSize = event.event.attributes.find((a)=> a.key === "amount")?.value;

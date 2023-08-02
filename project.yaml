@@ -47,6 +47,7 @@ dataSources:
           # https://sei.explorers.guru/transaction/FD18039DE988771475B4AC744BF4D4E8048F0C913CF6B1D3F369ABA082618A51
           filter:
             type: wasm
+            #filtering to find the right action only ("fuzio-bet")
             attributes:
               action: "fuzio-bet"
             messageFilter:
