@@ -1,8 +1,12 @@
 # SubQuery - Starter Package for Sei
 
-A custom example project with an event handler for Sei Network's Fuzio contract, indexing bets on BTC in Sei testnet atlantic-2. Read more about SubQuery support for Cosmos at https://academy.subquery.network/quickstart/quickstart_chains/cosmos.html.
+A custom example project with an event handler for Sei Network's [Fuzio](https://app.fuzio.network/games/prediction) contract, indexing bets on BTC in Sei testnet atlantic-2. Read more about SubQuery support for Cosmos at https://academy.subquery.network/quickstart/quickstart_chains/cosmos.html.
 
 A SubQuery package defines which data SubQuery will index from the blockchain, and how it will store it.
+
+Links:
+- [Contract](https://www.seiscan.app/atlantic-2/contracts/sei1wtm234jw7ewdq2aqs0r7eq5t4vhwknpjdd0r7g6fdu4aj4wfedlq8w6pua)
+- [Example transaction](https://www.seiscan.app/atlantic-2/txs/994998FD2B1CC3013FD0724D4AA007850D2120212B8819B23FC0B5BBAE0926D0)
 
 ## Preparation
 
